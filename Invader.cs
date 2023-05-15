@@ -1,0 +1,7 @@
+namespace TowerDefense
+{
+    class Invader
+    {
+        
+    }
+}
