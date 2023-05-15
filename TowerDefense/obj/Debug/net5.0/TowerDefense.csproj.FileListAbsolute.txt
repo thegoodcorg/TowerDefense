@@ -1,0 +1,16 @@
+C:\Users\16159\workspace\TowerDefense\TowerDefense\bin\Debug\net5.0\TowerDefense.exe
+C:\Users\16159\workspace\TowerDefense\TowerDefense\bin\Debug\net5.0\TowerDefense.deps.json
+C:\Users\16159\workspace\TowerDefense\TowerDefense\bin\Debug\net5.0\TowerDefense.runtimeconfig.json
+C:\Users\16159\workspace\TowerDefense\TowerDefense\bin\Debug\net5.0\TowerDefense.runtimeconfig.dev.json
+C:\Users\16159\workspace\TowerDefense\TowerDefense\bin\Debug\net5.0\TowerDefense.dll
+C:\Users\16159\workspace\TowerDefense\TowerDefense\bin\Debug\net5.0\TowerDefense.pdb
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\TowerDefense.csproj.AssemblyReference.cache
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\TowerDefense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\TowerDefense.AssemblyInfoInputs.cache
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\TowerDefense.AssemblyInfo.cs
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\TowerDefense.csproj.CoreCompileInputs.cache
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\TowerDefense.dll
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\refint\TowerDefense.dll
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\TowerDefense.pdb
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\TowerDefense.genruntimeconfig.cache
+C:\Users\16159\workspace\TowerDefense\TowerDefense\obj\Debug\net5.0\ref\TowerDefense.dll

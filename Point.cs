@@ -27,5 +27,10 @@ namespace TowerDefense
 
             return (int)Math.Sqrt(xDiffSquared + yDiffSquared);
         }
+
+        public int DistanceTo(Point point)
+        {
+            return DistanceTo(point.X, point.Y);
+        }
     }
 }
