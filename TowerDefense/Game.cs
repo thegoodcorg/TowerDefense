@@ -13,7 +13,7 @@ namespace TowerDefense
             try
             {
                 Path path = new Path(
-                    new [] {
+                    new[] {
                         new MapLocation(0,2, map),
                         new MapLocation(1,2, map),
                         new MapLocation(2,2, map),
@@ -22,11 +22,9 @@ namespace TowerDefense
                         new MapLocation(5,2, map),
                         new MapLocation(6,2, map),
                         new MapLocation(7,2, map)
-                     }
+                     } 
                     );
 
-                MapLocation location = path.GetLocationAt(0);
-                Console.WriteLine(location.X + "," + location.Y); 
             }
             catch (OutOfBoundsException ex)
             {
