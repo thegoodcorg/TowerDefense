@@ -17,6 +17,7 @@ namespace TowerDefense
             }
         }
         public bool IsNeutralized => Health <= 0;
+        public bool IsActive => !(IsNeutralized || HasScored);
         public Invader(Path path)
         {
             _path = path;
