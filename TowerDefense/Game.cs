@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using TowerDefense.Invaders;
 
 namespace TowerDefense
 {
@@ -24,16 +25,24 @@ namespace TowerDefense
                         new MapLocation(7,2, map)
                      } 
                     );
+
+                //MapLocation location = new MapLocation(0,2, map);
+
+                //if (path.IsOnPath(location))
+                //{
+                //    Console.WriteLine("Location is on the path.");
+                //    return;
+                //}
                 Invader[] invaders =
                 {
                     new ShieldedInvader(path),
                     new FastInvader(path),
                     new StrongInvader(path),
-                    new Invader(path)
+                    new BasicInvader(path)
                 };
                 Tower[] towers =
                 {
-                    new Tower(new MapLocation(1,3, map)),
+                    new SniperTower(new MapLocation(1,3, map)),
                     new Tower(new MapLocation(3,3, map)),
                     new Tower(new MapLocation(5,3, map)),
                 };

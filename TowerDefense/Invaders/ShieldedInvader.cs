@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TowerDefense
+namespace TowerDefense.Invaders
 {
     class ShieldedInvader : Invader
     {
@@ -15,13 +15,13 @@ namespace TowerDefense
         }
         public override void DecreaseHealth(int factor)
         {
-            if(_random.NextDouble() < 0.33)
+            if (_random.NextDouble() < 0.33)
             {
                 base.DecreaseHealth(factor);
             }
             else
             {
-            Console.WriteLine("Shot at a shielded invader but it took no damage!");
+                Console.WriteLine("Shot at a shielded invader but it took no damage!");
 
             }
         }

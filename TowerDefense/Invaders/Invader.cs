@@ -1,8 +1,8 @@
 using System;
 
-namespace TowerDefense
+namespace TowerDefense.Invaders
 {
-    class Invader
+    abstract class Invader
     {
         private readonly Path _path;
 

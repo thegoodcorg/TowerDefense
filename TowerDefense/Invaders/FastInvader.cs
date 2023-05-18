@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TowerDefense
+namespace TowerDefense.Invaders
 {
     class FastInvader : Invader
     {
         protected override int StepSize { get; } = 2;
-        public FastInvader(Path path) : base(path) 
-        { 
-            
+        public FastInvader(Path path) : base(path)
+        {
+
         }
     }
 }
