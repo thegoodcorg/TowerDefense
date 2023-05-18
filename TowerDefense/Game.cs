@@ -26,19 +26,14 @@ namespace TowerDefense
                      } 
                     );
 
-                //MapLocation location = new MapLocation(0,2, map);
 
-                //if (path.IsOnPath(location))
-                //{
-                //    Console.WriteLine("Location is on the path.");
-                //    return;
-                //}
-                Invader[] invaders =
+                IInvader[] invaders =
                 {
                     new ShieldedInvader(path),
                     new FastInvader(path),
                     new StrongInvader(path),
-                    new BasicInvader(path)
+                    new BasicInvader(path),
+                    new ResurrectingInvader(path)
                 };
                 Tower[] towers =
                 {

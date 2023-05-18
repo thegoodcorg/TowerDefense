@@ -14,7 +14,7 @@ namespace TowerDefense
         protected virtual double Accuracy { get; } = .75;
 
         private readonly MapLocation _location;
-        Random _random = new Random();
+        
 
         public Tower(MapLocation location)
         {
@@ -23,12 +23,12 @@ namespace TowerDefense
 
         private bool IsSuccessfulShot()
         {
-            return _random.NextDouble() < Accuracy;
+            return Random.NextDouble() < Accuracy;
         }
 
-        public void FireOnInvader(Invader[] invaders)
+        public void FireOnInvader(IInvader[] invaders)
         {
-            foreach (Invader invader in invaders)
+            foreach (IInvader invader in invaders)
             {
                 if (invader.IsActive && _location.InRangeOf(invader.Location, Range))
                 {
